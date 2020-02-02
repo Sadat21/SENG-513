@@ -15,6 +15,7 @@ h1 {
 nav {
   background-color: #333;
   overflow: hidden;
+  font-family: "Girassol";
 }
 
 nav a {
@@ -47,7 +48,8 @@ footer {
   text-align: center;
 }
 
-.full-page, .full-page-background {
+.full-page,
+.full-page-background {
   position: absolute;
   top: 0;
   left: 0;
@@ -61,7 +63,7 @@ footer {
 
 .full-page-background {
   background-size: cover;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-position: center;
   opacity: 0.5;
   z-index: -2;
@@ -80,3 +82,38 @@ footer {
 .flex-container {
   display: flex;
 }
+
+/* Start of Table */
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-family: "Girassol";
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #eb4840;
+  color: white;
+}
+
+tr {
+  background-color: whitesmoke;
+}
+
+table {
+  margin: auto;
+  width: 80%;
+}
+
+tbody {
+  text-align: center;
+}
+/* End of Table */
