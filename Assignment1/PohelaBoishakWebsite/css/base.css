@@ -32,7 +32,7 @@ nav a:hover {
 }
 
 nav a.active {
-  background-color: #4caf50;
+  background-color: #eb4840;
   color: white;
 }
 /* Navigation Bar End */
@@ -47,7 +47,7 @@ footer {
   text-align: center;
 }
 
-.full-page {
+.full-page, .full-page-background {
   position: absolute;
   top: 0;
   left: 0;
@@ -59,11 +59,22 @@ footer {
   display: flex;
 }
 
+.full-page-background {
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center;
+  opacity: 0.5;
+  z-index: -2;
+}
+
 .center {
   margin: auto;
-  width: 75%;
+  width: 60%;
   padding: 10px;
   text-align: center;
+  background-color: beige;
+  opacity: 0.9;
+  z-index: 2;
 }
 
 .flex-container {
