@@ -1,6 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Parisienne|Girassol&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
 body {
   margin: 0;
-  background-color: beige;
+  background-color: white;
+}
+
+h1 {
+  font-size: 75px;
+  font-family: "Parisienne", cursive;
 }
 
 /* Navigation Bar Start */
@@ -53,7 +61,11 @@ footer {
 
 .center {
   margin: auto;
-  width: 50%;
+  width: 75%;
   padding: 10px;
   text-align: center;
+}
+
+.flex-container {
+  display: flex;
 }

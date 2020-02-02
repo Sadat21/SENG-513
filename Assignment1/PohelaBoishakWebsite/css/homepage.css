@@ -1,6 +1,23 @@
 .full-page {
-    background-image: url(../images/summer.jpg);
+    background-image: url(../images/background.jpeg);
     background-size: cover;
     background-repeat:no-repeat;
     background-position: center;
+}
+
+h1 {
+    font-size: 200px;
+    margin-bottom: 0em;
+}
+
+h2 {
+    font-size: 100px;
+    font-family: 'Girassol', cursive;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+h3 {
+    font-size: 40px;
+    margin-top: 1em;
 }
