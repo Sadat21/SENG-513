@@ -4,6 +4,7 @@
 body {
   margin: 0;
   background-color: white;
+  font-size: 25px;
 }
 
 h1 {
@@ -46,6 +47,7 @@ footer {
   background-color: #333;
   color: white;
   text-align: center;
+  font-size: 15px;
 }
 
 .full-page,
@@ -117,3 +119,18 @@ tbody {
   text-align: center;
 }
 /* End of Table */
+
+/* Start of List */
+ul {
+  display: table;
+  margin: 0 auto;
+  text-align: left;
+  list-style-type: square;
+}
+
+li {
+  padding-bottom: 10px;
+  font-family: "Girassol";
+}
+
+/* End of List */

@@ -1,18 +1,20 @@
 h1 {
-  font-size: 200px;
+  font-size: 250px;
   margin-bottom: 0em;
 }
 
 h2 {
-  font-size: 100px;
+  font-size: 150px;
   font-family: "Girassol", cursive;
   margin-top: 0em;
   margin-bottom: 0em;
+  color: #eb4840;
 }
 
 h3 {
   font-size: 40px;
   margin-top: 1em;
+  font-family: "Girassol", cursive;
 }
 
 .center {
