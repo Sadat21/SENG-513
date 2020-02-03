@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Parisienne|Girassol&display=swap");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
 body {
   margin: 0;
@@ -76,9 +75,10 @@ footer {
   width: 60%;
   padding: 10px;
   text-align: center;
-  background-color: beige;
-  opacity: 0.9;
+  background-color: white;
+  opacity: 0.8;
   z-index: 2;
+  min-height: 500px;
 }
 
 .flex-container {

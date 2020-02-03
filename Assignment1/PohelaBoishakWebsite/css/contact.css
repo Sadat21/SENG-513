@@ -1,17 +1,8 @@
-.fa {
-  padding: 20px;
-  font-size: 50px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  align-items: left;
-}
-
-.fa:hover {
-  opacity: 0.7;
-}
-
 .icon-box {
   text-align: left;
   margin: auto;
+}
+
+ul {
+    list
 }
