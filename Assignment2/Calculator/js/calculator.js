@@ -1,4 +1,15 @@
-// TODO: Add old value for reuse
+let history = "Error";
+
+onArithmeticClick = character => {
+  let inputElement = document.getElementById("interim-input");
+  if (inputElement.value === '' && history !== "Error") {
+    inputElement.value = history + character;
+  }
+  else {
+    inputElement.value = inputElement.value + character;
+  }
+}
+
 onNormalButtonClick = character => {
   let inputElement = document.getElementById("interim-input");
   inputElement.value = inputElement.value + character;
@@ -25,7 +36,7 @@ equal = () => {
 
   if (inputElement.value !== "") {
     const expression = inputElement.value;
-    // TODO: Add * between every x(y) and (x)(y)
+    // Add * between every x(y) and (x)(y)
     let cleanExpression = expression.replace(/([\d\)])\(/, "$1*(");
 
     let answer = "";
@@ -36,6 +47,7 @@ equal = () => {
       answer = "Error";
     } finally {
       outputElement.value = expression + "=" + answer;
+      history = answer
       clearInterim();
     }
   }

@@ -1,17 +1,17 @@
 button {
-    width: 50px;
+    width: 150px;
     padding: 5px;
-    height: 30px;
+    height: 50px;
 }
 
 input {
-    width: 215px;
+    width: 600px;
+    height: 50px;
     text-align: right;
 }
 
 .center {
     margin: auto;
-    width: 100%;
     padding: 10px;
     text-align: center;
     opacity: 0.8;
