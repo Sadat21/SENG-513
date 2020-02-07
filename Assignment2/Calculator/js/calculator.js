@@ -41,7 +41,6 @@ equal = () => {
 
     let answer = "";
     try {
-      // TODO: Scientific value
       answer = eval(cleanExpression);
     } catch {
       answer = "Error";

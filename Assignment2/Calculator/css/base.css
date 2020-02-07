@@ -1,18 +1,35 @@
 button {
-    width: 150px;
-    padding: 5px;
-    height: 50px;
+  width: 150px;
+  height: 50px;
+  padding: 0px;
+  font-size: 25px;
+  font-family: monospace;
+  border: 0px;
+  background-color: #adadeb;
+}
+
+button:hover {
+  background-color: #5e4485;
 }
 
 input {
-    width: 600px;
-    height: 50px;
-    text-align: right;
+  width: 560px;
+  padding: 0px 20px 0px 20px;
+  height: 50px;
+  text-align: right;
+  border: 0px;
+  font-size: 25px;
 }
 
 .center {
-    margin: auto;
-    padding: 10px;
-    text-align: center;
-    opacity: 0.8;
-  }
+  margin: auto;
+  max-width: 600px;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.row {
+  padding: 0px;
+  margin: 0px;
+  font-size: 0;
+}
