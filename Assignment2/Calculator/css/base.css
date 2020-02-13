@@ -46,7 +46,7 @@ input {
   font-size: 0;
 }
 
-@media only screen and (max-device-width: 600px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (max-width: 600px){
   body {
     background-color: #adadeb;
     font-size: 50px;
